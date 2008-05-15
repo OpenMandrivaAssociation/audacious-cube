@@ -1,6 +1,6 @@
 %define name audacious-cube
 %define version 1.2.2
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Gamecube audio plugin for Audacious
 Name: %{name}
@@ -24,8 +24,9 @@ RSP, AST, and AFC.
 %prep
 %setup -q
 %patch -p1
+aclocal
 autoconf
-
+automake
 
 %build
 %configure2_5x
