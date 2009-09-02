@@ -1,6 +1,6 @@
 %define name audacious-cube
 %define version 1.2.2
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Gamecube audio plugin for Audacious
 Name: %{name}
