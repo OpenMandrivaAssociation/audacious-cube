@@ -1,0 +1,9 @@
+diff -p -up audacious-cube-1.2.1/configure.in.autoconf audacious-cube-1.2.1/configure.in
+--- audacious-cube-1.2.1/configure.in.autoconf	2008-01-30 10:09:54.000000000 +0100
++++ audacious-cube-1.2.1/configure.in	2008-01-30 10:09:25.000000000 +0100
+@@ -44,5 +44,4 @@ AC_OUTPUT([
+   Makefile
+   src/Makefile
+   in_cube/Makefile
+-  test/Makefile
+ ])
