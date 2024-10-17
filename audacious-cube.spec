@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.gz
 Patch: audacious-cube-1.2.1-autoconf.patch
 License: GPL
 Group: Sound
-Url: http://voidpointer.org/audacious-cube
+Url: https://voidpointer.org/audacious-cube
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libaudacious-devel
 Requires: audacious
